@@ -1,0 +1,67 @@
+﻿@page "/"
+@using FormApp.Models;
+@using FormApp.Services;
+@using Microsoft.AspNetCore.Components.Forms;
+@using System.ComponentModel.DataAnnotations;
+
+
+
+<PageTitle>ATM</PageTitle>
+
+<h3>DOMANDA DI PRIMO RILASCIO O RINNOVO PER ABBONAMENTO FAMILIARI DIPENDENTI A.T.M. S.p.A.</h3>
+L'abbonato
+<EditForm Enhance EditContext="editContext" OnValidSubmit="HandleFormSubmission" FormName="Abbonamento">
+    <CustomValidator></CustomValidator>
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <ValidationSummary></ValidationSummary>
+    <div class="mb-3">
+        <label class="form-label" for="Cognome">Cognome * </label>
+        <InputText class="form-control" id="Cognome" @bind-Value="registration!.Cognome" placeholder="Inserisci cognome"></InputText>
+        <ValidationMessage For="@(() => registration.Cognome)" />
+    </div>
+    <br/>
+    <label for="Nome">Nome * </label>
+    <InputText class="form-control" id="Nome" @bind-Value="registration!.Nome" placeholder="Inserisci nome"></InputText>
+        <ValidationMessage For="@(() => registration!.Nome)" />
+    <br/>
+    <label for="LuogoDiNascita">Luogo di nascita *</label>
+    <InputText id="LuogoDiNascita" @bind-Value="registration.LuogoDiNascita"></InputText>
+    <br/>
+    <label for="DataDiNascita">Data di nascita * </label>
+    <InputDate id="DataDiNascita" @bind-Value="registration.DataDiNascita"></InputDate>
+    <br/>
+    RESIDENTE IN
+    <br/
+    <label for="ViaResidenza"> Via / Piazza * </label>
+    <InputText id="ViaResidenza" @bind-Value="@registration.ViaResidenza"></InputText>
+    <br/>
+    <label for="NCivResidenza"> Numero Civico * </label>
+    <InputNumber id="NCivResidenza" @bind-Value="@registration.NCivResidenza"></InputNumber>
+    <br/>
+    <label for="CapResidenza"> CAP * </label>
+    <InputNumber id="CapResidenza" @bind-Value="@registration.CapResidenza"></InputNumber>
+
+    
+    <button type="submit" class="btn btn-primary" onclick="Checkdata()"> Prosegui </button>
+
+</EditForm>
+
+@code {
+    private EditContext? editContext;
+
+    [SupplyParameterFromForm]
+    public Registration? registration {get; set;}
+
+    protected override Task OnInitializedAsync() {
+        registration ??= new();
+        editContext = new(registration); 
+        return Task.CompletedTask;
+    }
+
+    public void HandleFormSubmission(EditContext context) {
+        if (registration != null)
+        {
+            Console.WriteLine(registration.Cognome);
+        }
+    }
+}
