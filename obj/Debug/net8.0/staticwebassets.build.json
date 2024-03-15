@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "entjvApznBqOjCE6PDl7eKzJw0/DVqaKMAetTiuJ3sw=",
+  "Hash": "7LaOsbMRPRfxif/pe6u7MnIfWtewedbw3fd3Qy3iVSU=",
   "Source": "FormApp",
   "BasePath": "_content/FormApp",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "FormApp\\wwwroot",
+      "Name": "FormApp/wwwroot",
       "Source": "FormApp",
-      "ContentRoot": "C:\\Users\\a408\\OneDrive - ATM spa\\atm\\FormApp\\wwwroot\\",
+      "ContentRoot": "/Users/sara/Downloads/atm/FormApp/wwwroot/",
       "BasePath": "_content/FormApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\a408\\OneDrive - ATM spa\\atm\\FormApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FormApp.styles.css",
+      "Identity": "/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/scopedcss/bundle/FormApp.styles.css",
       "SourceId": "FormApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\a408\\OneDrive - ATM spa\\atm\\FormApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/FormApp",
       "RelativePath": "FormApp.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\a408\\OneDrive - ATM spa\\atm\\FormApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FormApp.styles.css"
+      "OriginalItemSpec": "/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/scopedcss/bundle/FormApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\a408\\OneDrive - ATM spa\\atm\\FormApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FormApp.bundle.scp.css",
+      "Identity": "/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/scopedcss/projectbundle/FormApp.bundle.scp.css",
       "SourceId": "FormApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\a408\\OneDrive - ATM spa\\atm\\FormApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/FormApp",
       "RelativePath": "FormApp.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\a408\\OneDrive - ATM spa\\atm\\FormApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FormApp.bundle.scp.css"
+      "OriginalItemSpec": "/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/scopedcss/projectbundle/FormApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\a408\\OneDrive - ATM spa\\atm\\FormApp\\wwwroot\\app.css",
+      "Identity": "/Users/sara/Downloads/atm/FormApp/wwwroot/app.css",
       "SourceId": "FormApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\a408\\OneDrive - ATM spa\\atm\\FormApp\\wwwroot\\",
+      "ContentRoot": "/Users/sara/Downloads/atm/FormApp/wwwroot/",
       "BasePath": "_content/FormApp",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\app.css"
+      "OriginalItemSpec": "wwwroot/app.css"
     },
     {
-      "Identity": "C:\\Users\\a408\\OneDrive - ATM spa\\atm\\FormApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "/Users/sara/Downloads/atm/FormApp/wwwroot/bootstrap/bootstrap.min.css",
       "SourceId": "FormApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\a408\\OneDrive - ATM spa\\atm\\FormApp\\wwwroot\\",
+      "ContentRoot": "/Users/sara/Downloads/atm/FormApp/wwwroot/",
       "BasePath": "_content/FormApp",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\a408\\OneDrive - ATM spa\\atm\\FormApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "/Users/sara/Downloads/atm/FormApp/wwwroot/bootstrap/bootstrap.min.css.map",
       "SourceId": "FormApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\a408\\OneDrive - ATM spa\\atm\\FormApp\\wwwroot\\",
+      "ContentRoot": "/Users/sara/Downloads/atm/FormApp/wwwroot/",
       "BasePath": "_content/FormApp",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\a408\\OneDrive - ATM spa\\atm\\FormApp\\wwwroot\\favicon.png",
+      "Identity": "/Users/sara/Downloads/atm/FormApp/wwwroot/favicon.png",
       "SourceId": "FormApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\a408\\OneDrive - ATM spa\\atm\\FormApp\\wwwroot\\",
+      "ContentRoot": "/Users/sara/Downloads/atm/FormApp/wwwroot/",
       "BasePath": "_content/FormApp",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -128,7 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.png"
+      "OriginalItemSpec": "wwwroot/favicon.png"
     }
   ]
 }

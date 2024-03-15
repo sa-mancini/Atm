@@ -27,32 +27,62 @@
 /Users/sara/Desktop/atm/atm/FormApp/obj/Debug/net8.0/FormApp.pdb
 /Users/sara/Desktop/atm/atm/FormApp/obj/Debug/net8.0/FormApp.genruntimeconfig.cache
 /Users/sara/Desktop/atm/atm/FormApp/obj/Debug/net8.0/ref/FormApp.dll
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\FormApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\FormApp.AssemblyInfoInputs.cache
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\FormApp.AssemblyInfo.cs
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\FormApp.csproj.CoreCompileInputs.cache
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\FormApp.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\FormApp.dll
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\refint\FormApp.dll
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\FormApp.pdb
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\bin\Debug\net8.0\appsettings.json
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\bin\Debug\net8.0\FormApp.staticwebassets.runtime.json
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\bin\Debug\net8.0\FormApp.exe
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\bin\Debug\net8.0\FormApp.deps.json
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\bin\Debug\net8.0\FormApp.runtimeconfig.json
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\bin\Debug\net8.0\FormApp.dll
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\bin\Debug\net8.0\FormApp.pdb
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\staticwebassets\msbuild.FormApp.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\staticwebassets\msbuild.build.FormApp.props
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.FormApp.props
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FormApp.props
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\scopedcss\bundle\FormApp.styles.css
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\scopedcss\projectbundle\FormApp.bundle.scp.css
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\FormApp.genruntimeconfig.cache
-C:\Users\a408\OneDrive - ATM spa\atm\FormApp\obj\Debug\net8.0\ref\FormApp.dll
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/FormApp.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/FormApp.AssemblyInfoInputs.cache
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/FormApp.AssemblyInfo.cs
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/FormApp.csproj.CoreCompileInputs.cache
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/FormApp.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/FormApp.dll
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/refint/FormApp.dll
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/FormApp.pdb
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/bin/Debug/net8.0/appsettings.json
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/bin/Debug/net8.0/FormApp.staticwebassets.runtime.json
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/bin/Debug/net8.0/FormApp.exe
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/bin/Debug/net8.0/FormApp.deps.json
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/bin/Debug/net8.0/FormApp.runtimeconfig.json
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/bin/Debug/net8.0/FormApp.dll
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/bin/Debug/net8.0/FormApp.pdb
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/staticwebassets/msbuild.FormApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/staticwebassets/msbuild.build.FormApp.props
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.FormApp.props
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.FormApp.props
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/staticwebassets.pack.json
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/scopedcss/bundle/FormApp.styles.css
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/scopedcss/projectbundle/FormApp.bundle.scp.css
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/FormApp.genruntimeconfig.cache
+C:/Users/a408/OneDrive - ATM spa/atm/FormApp/obj/Debug/net8.0/ref/FormApp.dll
+/Users/sara/Downloads/atm/FormApp/bin/Debug/net8.0/appsettings.Development.json
+/Users/sara/Downloads/atm/FormApp/bin/Debug/net8.0/appsettings.json
+/Users/sara/Downloads/atm/FormApp/bin/Debug/net8.0/FormApp.staticwebassets.runtime.json
+/Users/sara/Downloads/atm/FormApp/bin/Debug/net8.0/FormApp
+/Users/sara/Downloads/atm/FormApp/bin/Debug/net8.0/FormApp.deps.json
+/Users/sara/Downloads/atm/FormApp/bin/Debug/net8.0/FormApp.runtimeconfig.json
+/Users/sara/Downloads/atm/FormApp/bin/Debug/net8.0/FormApp.dll
+/Users/sara/Downloads/atm/FormApp/bin/Debug/net8.0/FormApp.pdb
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/FormApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/FormApp.AssemblyInfoInputs.cache
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/FormApp.AssemblyInfo.cs
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/FormApp.csproj.CoreCompileInputs.cache
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/FormApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/FormApp.sourcelink.json
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/staticwebassets.build.json
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/staticwebassets.development.json
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/staticwebassets/msbuild.FormApp.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/staticwebassets/msbuild.build.FormApp.props
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.FormApp.props
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.FormApp.props
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/scopedcss/bundle/FormApp.styles.css
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/scopedcss/projectbundle/FormApp.bundle.scp.css
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/FormApp.dll
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/refint/FormApp.dll
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/FormApp.pdb
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/FormApp.genruntimeconfig.cache
+/Users/sara/Downloads/atm/FormApp/obj/Debug/net8.0/ref/FormApp.dll

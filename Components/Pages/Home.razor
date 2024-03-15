@@ -4,64 +4,230 @@
 @using Microsoft.AspNetCore.Components.Forms;
 @using System.ComponentModel.DataAnnotations;
 
-
-
 <PageTitle>ATM</PageTitle>
 
-<h3>DOMANDA DI PRIMO RILASCIO O RINNOVO PER ABBONAMENTO FAMILIARI DIPENDENTI A.T.M. S.p.A.</h3>
-L'abbonato
-<EditForm Enhance EditContext="editContext" OnValidSubmit="HandleFormSubmission" FormName="Abbonamento">
-    <CustomValidator></CustomValidator>
-    <DataAnnotationsValidator></DataAnnotationsValidator>
-    <ValidationSummary></ValidationSummary>
-    <div class="mb-3">
-        <label class="form-label" for="Cognome">Cognome * </label>
-        <InputText class="form-control" id="Cognome" @bind-Value="registration!.Cognome" placeholder="Inserisci cognome"></InputText>
-        <ValidationMessage For="@(() => registration.Cognome)" />
+<div class="container">
+    <h3>DOMANDA DI PRIMO RILASCIO O RINNOVO PER ABBONAMENTO FAMILIARI DIPENDENTI A.T.M. S.p.A.</h3>
+    <div class="row">
+        <p> <b>L'ABBONATO</b> <small> (coniuge, figlio, familiare convivente; come da Ordine di Servizio)</small></p>
+        <div class="col-md-6">
+            <EditForm Enhance EditContext="editContext" OnValidSubmit="HandleFormSubmission" FormName="Abbonamento">
+                <DataAnnotationsValidator></DataAnnotationsValidator>
+                <ValidationSummary></ValidationSummary>
+                <div class="form-group mb-3">
+                    <label for="categoria">Categoria Cliente *</label>
+                    <InputRadioGroup id="categoria" class="form-control" @bind-Value="registration.CategoriaCliente">
+                        <div class="form-check form-check">
+                            <InputRadio TValue="string" value="ordinario" id="ordinario" class="form-check-input">Ordinario</InputRadio>
+                            <label class="form-check-label" for="ordinario">Ordinario <small>(da richiedersi per il coniuge o familiare convivente)</small></label>
+                        </div>
+                        <div class="form-check form-check">
+                            <InputRadio TValue="string" value="giovani" id="giovani"  class="form-check-input">Giovani</InputRadio>
+                            <label class="form-check-label" for="giovani">Giovani <small>(da richiedersi per i giovani fino a 26 anni)</small></label>
+                        </div>
+                    </InputRadioGroup>
+                    <ValidationMessage For="@(() => registration.CategoriaCliente)" />
+                </div>
+            
+                <div class="mb-3">
+                    <label class="form-label" for="Cognome">Cognome *</label>
+                    <InputText class="form-control" id="Cognome" @bind-Value="registration.Cognome" placeholder="Inserisci cognome"></InputText>
+                    <ValidationMessage For="@(() => registration.Cognome)" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="Cognome">Nome *</label>
+                    <InputText class="form-control" id="Nome" @bind-Value="registration.Nome" placeholder="Inserisci nome"></InputText>
+                    <ValidationMessage For="@(() => registration.Nome)" />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="sesso">Sesso *</label>
+                    <InputRadioGroup id="sesso" class="form-control" @bind-Value="registration.Sesso">
+                        <div class="form-check form-check">
+                            <InputRadio TValue="string" value="m" id="m" class="form-check-input">Maschio</InputRadio>
+                            <label class="form-check-label" for="m">Maschio</label>
+                        </div>
+                        <div class="form-check">
+                            <InputRadio TValue="string" value="f" id="f"  class="form-check-input">Femmina</InputRadio>
+                            <label class="form-check-label" for="f">Femmina</label>
+                        </div>
+                    </InputRadioGroup>
+                    <ValidationMessage For="@(() => registration.Sesso)" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="LuogoDiNascita">Luogo di nascita *</label>
+                    <InputText id="LuogoDiNascita" @bind-Value="registration.LuogoDiNascita" class="form-control" placeholder="Inserisci luogo di nascita" disabled></InputText>
+                    <ValidationMessage For="@(() => registration.LuogoDiNascita)" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="DataDiNascita">Data di nascita *</label>
+                    <InputDate id="DataDiNascita" @bind-Value="registration.DataDiNascita" class="form-control" placeholder="Inserisci data di nascita" disabled></InputDate>
+                </div>
+
+                  
+                <p>RESIDENTE in:</p>
+
+                <div class="mb-3">
+                    <label for="ViaResidenza">Via / Piazza *</label>
+                    <InputText id="ViaResidenza" @bind-Value="registration.ViaResidenza" class="form-control" placeholder="Inserisci via/piazza di residenza"></InputText>
+                </div>
+
+                <div class="mb-3">
+                    <label for="NCivResidenza">Numero Civico *</label>
+                    <InputNumber id="NCivResidenza" @bind-Value="registration.NCivResidenza" class="form-control" placeholder="Inserisci numero civico"></InputNumber>
+                </div>
+
+                <div class="mb-3">
+                    <label for="CapResidenza">CAP *</label>
+                    <InputNumber id="CapResidenza" @bind-Value="registration.CapResidenza" class="form-control" placeholder="Inserisci CAP"></InputNumber>
+                </div>
+
+                
+                <div class="mb-3">
+                    <label for="ComuneResidenza">Comune *</label>
+                    <InputText id="ComuneResidenza" @bind-Value="registration.ComuneResidenza" class="form-control" placeholder="Inserisci Comune"></InputText>
+                
+                </div>
+
+                <div class="mb-3">
+                    <label for="ProvinciaResidenza">Provincia *</label>
+                    <InputText id="ProvinciaResidenza" @bind-Value="registration.ProvinciaResidenza" class="form-control" placeholder="Inserisci Provincia"></InputText>
+                </div>
+
+                <p>DOMICILIATO a:</p>
+
+                <div class="mb-3">
+                    <label for="ViaDomicilio">Via / Piazza *</label>
+                    <InputText id="ViaDomicilio" @bind-Value="registration.ViaResidenza" class="form-control" placeholder="Inserisci via/piazza di domicilio"></InputText>
+                </div>
+
+                <div class="mb-3">
+                    <label for="NCivDomicilio">Numero Civico *</label>
+                    <InputNumber id="NCivDomicilio" @bind-Value="registration.NCivResidenza" class="form-control" placeholder="Inserisci numero civico"></InputNumber>
+                </div>
+
+                <div class="mb-3">
+                    <label for="CapDomicilio">CAP *</label>
+                    <InputNumber id="CapDomicilio" @bind-Value="registration.CapResidenza" class="form-control" placeholder="Inserisci CAP"></InputNumber>
+                </div>
+
+                
+                <div class="mb-3">
+                    <label for="ComuneDomicilio">Comune *</label>
+                    <InputText id="ComuneDomicilio" @bind-Value="registration.ComuneResidenza" class="form-control" placeholder="Inserisci Comune"></InputText>
+                </div>
+
+                <div class="mb-3">
+                    <label for="ProvinciaDomicilio">Provincia *</label>
+                    <InputText id="ProvinciaDomicilio" @bind-Value="registration.ProvinciaResidenza" class="form-control" placeholder="Inserisci Provincia"></InputText>
+                </div>
+
+                <div class="mb-3">
+                    <label for="Cittadinanza">Cittadinanza *</label>
+                    <InputText id="StatoCivile" @bind-Value="registration.Cittadinanza" class="form-control" placeholder="Inserisci Cittadinanza"></InputText>
+                </div>
+
+                <div class="mb-3">
+                    <label for="CodiceFiscale">Codice Fiscale *</label>
+                    <InputText id="CodiceFiscale" @bind-Value="registration.CodiceFiscale" class="form-control" placeholder="Inserisci codice fiscale"></InputText>
+                </div>
+
+                <div class="mb-3">
+                    <label for="Email">Email</label>
+                    <InputText id="Email" @bind-Value="registration.Email" class="form-control" placeholder="Inserisci email"></InputText>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="Telefono">Telefono</label>
+                    <InputNumber id="Telefono" @bind-Value="registration.Telefono" class="form-control" placeholder="Inserisci numero di telefono"></InputNumber>
+                </div>
+
+                 <div class="mb-3">
+                    <label for="TelefonoUfficio">Telefono Ufficio</label>
+                    <InputNumber id="TelefonoUfficio" @bind-Value="registration.TelefonoUfficio" class="form-control" placeholder="Inserisci numero di telefono dell'ufficio"></InputNumber>
+                </div>
+
+                <div class="mb-3">
+                    <label for="CodiceAbbonamento">Codice Abbonamento *</label>
+                    <InputNumber id="CodiceAbbonamento" @bind-Value="registration.CodiceAbbonamento" class="form-control" placeholder="Inserisci il codice abbonamento"></InputNumber>
+                </div>
+
+                <div class="mb-3">
+                    <label for="MatricolaDipendente">Matricola Dipendente *</label>
+                    <InputNumber id="MatricolaDipendente" @bind-Value="registration.MatricolaDipendente" class="form-control" placeholder="Inserisci la matricola del dipendente"></InputNumber>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="Stato">Stato dell'abbonamento *</label>
+                    <InputRadioGroup id="Stato" class="form-control" @bind-Value="registration.Stato">
+                        <div class="form-check form-check">
+                            <InputRadio TValue="string" value="rinnovo" id="rinnovo" class="form-check-input">Rinnovo</InputRadio>
+                            <label class="form-check-label" for="rinnovo">Rinnovo</label>
+                        </div>
+                        <div class="form-check">
+                            <InputRadio TValue="string" value="rilascio" id="rilascio"  class="form-check-input">Primo rilascio</InputRadio>
+                            <label class="form-check-label" for="rilascio">Primo rilascio</label>
+                        </div>
+                    </InputRadioGroup>
+                    <ValidationMessage For="@(() => registration.Stato)" />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="Tipo">Tipo dell'abbonamento *</label>
+                        <InputSelect id="Tipo" class="form-control-inline" @bind-Value="registration.Tipo1">
+                            <option value="urbano">Urbano</option>
+                            <option value="Mi1">Mi1</option>
+                            <option value="Mi3">Mi3</option>
+                            <option value="Mi4">Mi4</option>
+                            <option value="Mi4">Mi5</option>
+                            <option value="Mi4">Mi6</option>
+                            <option value="Mi4">Mi7</option>
+                            <option value="Mi4">Mi8</option>
+                            <option value="Mi4">Mi9</option>
+                        </InputSelect>
+                        
+                        <span> - </span>
+                        <InputSelect id="Tipo" class="form-control-inline" @bind-Value="registration.Tipo2">
+                            <option value="">--</option>
+                            <option value="Mi3">Mi3</option>
+                            <option value="Mi4">Mi4</option>
+                            <option value="Mi4">Mi5</option>
+                            <option value="Mi4">Mi6</option>
+                            <option value="Mi4">Mi7</option>
+                            <option value="Mi4">Mi8</option>
+                            <option value="Mi4">Mi9</option>
+                        </InputSelect>
+
+                    <ValidationMessage For="@(() => registration.Tipo1)" />
+                </div>
+
+
+                <button type="submit" class="btn btn-primary">Prosegui</button>
+                </EditForm>
+            </div>
+        </div>
     </div>
-    <br/>
-    <label for="Nome">Nome * </label>
-    <InputText class="form-control" id="Nome" @bind-Value="registration!.Nome" placeholder="Inserisci nome"></InputText>
-        <ValidationMessage For="@(() => registration!.Nome)" />
-    <br/>
-    <label for="LuogoDiNascita">Luogo di nascita *</label>
-    <InputText id="LuogoDiNascita" @bind-Value="registration.LuogoDiNascita"></InputText>
-    <br/>
-    <label for="DataDiNascita">Data di nascita * </label>
-    <InputDate id="DataDiNascita" @bind-Value="registration.DataDiNascita"></InputDate>
-    <br/>
-    RESIDENTE IN
-    <br/
-    <label for="ViaResidenza"> Via / Piazza * </label>
-    <InputText id="ViaResidenza" @bind-Value="@registration.ViaResidenza"></InputText>
-    <br/>
-    <label for="NCivResidenza"> Numero Civico * </label>
-    <InputNumber id="NCivResidenza" @bind-Value="@registration.NCivResidenza"></InputNumber>
-    <br/>
-    <label for="CapResidenza"> CAP * </label>
-    <InputNumber id="CapResidenza" @bind-Value="@registration.CapResidenza"></InputNumber>
 
-    
-    <button type="submit" class="btn btn-primary" onclick="Checkdata()"> Prosegui </button>
+    @code {
+        private EditContext? editContext;
 
-</EditForm>
+        [SupplyParameterFromForm]
+        public Registration? registration { get; set; }
 
-@code {
-    private EditContext? editContext;
-
-    [SupplyParameterFromForm]
-    public Registration? registration {get; set;}
-
-    protected override Task OnInitializedAsync() {
-        registration ??= new();
-        editContext = new(registration); 
-        return Task.CompletedTask;
-    }
-
-    public void HandleFormSubmission(EditContext context) {
-        if (registration != null)
+        protected override async Task OnInitializedAsync()
         {
-            Console.WriteLine(registration.Cognome);
+            registration ??= new();
+            editContext = new(registration);
         }
+
+        public void HandleFormSubmission(EditContext context)
+            {
+             if (registration != null)
+                {
+                 Console.WriteLine(registration.Cognome);
+                }
+            }
     }
-}
